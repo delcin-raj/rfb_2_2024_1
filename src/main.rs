@@ -24,6 +24,7 @@ fn shift_alphabet(c: u8, shift: i32) -> u8 {
     let capital_z = 'Z' as u8;
 
     // Only apply shift if c is within a-z or A-Z, otherwise don't change it
+    todo!()
 }
 
 /// The ceasar_cipher should work for both upper case and lower case letters
@@ -33,7 +34,7 @@ fn caesar_cipher(message: &str, shift: i32) -> String {
     
     let bytes = todo!();// Convert the message to a slice of bytes
 
-    let mut encrypted_bytes = Vec::new(); // Create a new vector to store the encrypted bytes
+    // let mut encrypted_bytes = Vec::new(); // Create a new vector to store the encrypted bytes
     // for each byte apply the shift_alphabet function and collect them in encrypted_bytes
     // hint: use a for loop
 
