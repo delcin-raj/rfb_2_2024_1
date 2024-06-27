@@ -101,7 +101,7 @@ mod tests {
 
     #[test]
     fn test_shift_alphabet_a_neg1() {
-        assert_eq!(shift_alphabet(97, -1), 123);
+        assert_eq!(shift_alphabet(97, -1), 122);
     }
 
     #[test]
